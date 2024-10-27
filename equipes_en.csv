@@ -1,0 +1,639 @@
+Pays,Club,Championnat,Etoiles
+Germany,Union Berlin,Bundesliga,4.00
+Germany,Holstein Kiel,Bundesliga,3.00
+Germany,Frankfurt,Bundesliga,4.00
+Germany,FC Bayern Munchen,Bundesliga,5.00
+Germany,Leverkusen,Bundesliga,5.00
+Germany,SV Werder Bremen,Bundesliga,3.50
+Germany,VfL Wolfsburg,Bundesliga,4.00
+Germany,VfL Bochum 1848,Bundesliga,3.50
+Germany,Borussia Dortmund,Bundesliga,4.50
+Germany,M'gladbach,Bundesliga,4.00
+Germany,TSG Hoffenheim,Bundesliga,4.00
+Germany,FSV Mainz 05,Bundesliga,3.50
+Germany,SC Freiburg,Bundesliga,4.00
+Germany,FC St. Pauli,Bundesliga,3.00
+Germany,FC Augsburg,Bundesliga,3.50
+Germany,VfB Stuttgart,Bundesliga,4.00
+Germany,TSG Hoffenheim,Bundesliga,3.50
+Germany,RB Leipzig,Bundesliga,4.50
+Germany,Eint. Brunswick,Bundesliga 2,2.50
+Germany,Dusseldorf,Bundesliga 2,3.00
+Germany,Magdebourg,Bundesliga 2,2.50
+Germany,Jahn Regensburg,Bundesliga 2,2.00
+Germany,FC Schalke 04,Bundesliga 2,3.00
+Germany,Hamburger SV,Bundesliga 2,3.50
+Germany,Hannover 96,Bundesliga 2,3.00
+Germany,Hertha BSC,Bundesliga 2,3.50
+Germany,Karlsruher SC,Bundesliga 2,2.50
+Germany,FC Nurnberg,Bundesliga 2,2.50
+Germany,FC KOln,Bundesliga 2,3.50
+Germany,Furth,Bundesliga 2,2.50
+Germany,Kaiserslautern,Bundesliga 2,2.50
+Germany,SC Paderborn 07,Bundesliga 2,2.50 
+Germany,Preu?en Munster,Bundesliga 2,2.00 
+Germany,SV Elversberg,Bundesliga 2,2.50 
+Germany,SV Darmstadt 98,Bundesliga 2,3.00 
+Germany,SSV Ulm 1846,Bundesliga 2,2.00 
+Germany,Dynamo Dresden,3. Liga,2.00 
+Germany,Rot-Weiss Essen,3. Liga,1.50 
+Germany,SC Verl,3. Liga,1.50 
+Germany,B. Dortmund II,3. Liga,1.50 
+Germany,VfB Stuttgart II,3. Liga,1.00 
+Germany,SV Sandhausen,3. Liga,2.00 
+Germany,FC Ingolstadt 04,3. Liga,2.00 
+Germany,Unterhaching,3. Liga,1.00 
+Germany,Energie Cottbus,3. Liga,1.50 
+Germany,Arminia Bielefeld,3. Liga,2.00 
+Germany,FC Hansa Rostock,3. Liga,2.00 
+Germany,Aleman. Aachen,3. Liga,1.50 
+Germany,Wehen Wiesbaden,3. Liga,2.00 
+Germany,1860 Munich,3. Liga,2.00 
+Germany,VfL Osnabruck,3. Liga,2.00 
+Germany,FC Erzgebirge Aue,3. Liga,1.50 
+Germany,SV Waldhof,3. Liga,2.00 
+Germany,Hannover 96 II,3. Liga,1.00 
+Germany,Sarrebruck,3. Liga,2.00 
+Germany,Viktoria KOln,3. Liga,1.50 
+England,Arsenal,Premier League,5.00 
+England,Aston Villa,Premier League,4.50 
+England,Chelsea,Premier League,4.50 
+England,Everton,Premier League,4.00 
+England,Fulham,Premier League,4.00 
+England,Liverpool,Premier League,5.00 
+England,Manchester City,Premier League,5.00 
+England,Man Utd,Premier League,4.50 
+England,Newcastle Utd,Premier League,4.50 
+England,Spurs,Premier League,4.50 
+England,West Ham Utd,Premier League,4.50 
+England,Crystal Palace,Premier League,4.00 
+England,Ipswich Town,Premier League,3.50 
+England,Leicester City,Premier League,4.00 
+England,Southampton,Premier League,3.50 
+England,Wolves,Premier League,4.00 
+England,AFC Bournemouth,Premier League,4.00 
+England,Brighton,Premier League,4.00 
+England,Notting. Forest,Premier League,4.00 
+England,Brentford,Premier League,4.00 
+England,Blackburn Rovers,EFL championship,3.00 
+England,Derby County,EFL championship,2.50 
+England,Middlesbrough,EFL championship,3.50 
+England,Portsmouth,EFL championship,2.50 
+England,Sunderland,EFL championship,3.00 
+England,Bristol City,EFL championship,3.00 
+England,Burnley,EFL championship,3.50 
+England,Cardiff City,EFL championship,3.50 
+England,Coventry City,EFL championship,3.50 
+England,Hull City,EFL championship,3.00 
+England,Norwich City,EFL championship,3.50 
+England,Plymouth Argyle,EFL championship,3.00 
+England,Preston,EFL championship,3.00 
+England,QPR,EFL championship,3.00 
+England,Sheffield Wed,EFL championship,2.50 
+England,Stoke City,EFL championship,3.00 
+England,Watford,EFL championship,3.00 
+England,West Bromwich,EFL championship,3.50 
+England,Leeds Utd,EFL championship,3.50 
+England,Luton Town,EFL championship,3.50 
+England,Millwall,EFL championship,3.00 
+England,Swansea City,EFL championship,3.00 
+England,Oxford Utd,EFL championship,2.50 
+England,Sheffield Utd,EFL championship,3.50 
+England,Barnsley,EFL League One,2.00 
+England,Birmingham City,EFL League One,3.00 
+England,Blackpool,EFL League One,2.00 
+England,Bolton,EFL League One,2.00 
+England,Bristol Rovers,EFL League One,1.50 
+England,Burton Albion,EFL League One,1.50 
+England,Cambridge Utd,EFL League One,1.50 
+England,Charlton Athl.,EFL League One,2.00 
+England,Crawley Town,EFL League One,1.00 
+England,Exeter City,EFL League One,1.50 
+England,Huddersfield,EFL League One,2.50 
+England,Leyton Orient,EFL League One,1.50 
+England,Lincoln City,EFL League One,1.50 
+England,Mansfield Town,EFL League One,1.50 
+England,Northampton Town,EFL League One,1.50 
+England,Peterborough Utd,EFL League One,1.50 
+England,Reading,EFL League One,2.00 
+England,Roterham Utd,EFL League One,2.50 
+England,Shrewsbury Town,EFL League One,1.00 
+England,Stevenage,EFL League One,2.00 
+England,Stockport,EFL League One,2.00 
+England,Wigan Athletic,EFL League One,1.50 
+England,Wrexham,EFL League One,2.00 
+England,Wycombe,EFL League One,1.50 
+England,Colchester Utd,EFL League Two,1.00 
+England,Carlisle Utd,EFL League Two,1.00 
+England,Cheltenham Town,EFL League Two,0.50 
+England,Crewe Alexandra,EFL League Two,1.00 
+England,Doncaster Rovers,EFL League Two,1.00 
+England,Gillingham,EFL League Two,1.00 
+England,Port Vale,EFL League Two,1.50 
+England,Swindon City,EFL League Two,1.00 
+England,Tranmere Rovers,EFL League Two,1.00 
+England,Walsall,EFL League Two,1.00 
+England,Accrington,EFL League Two,0.50 
+England,Bradford City,EFL League Two,1.50 
+England,Chesterfield,EFL League Two,1.00 
+England,Grimsby Town,EFL League Two,1.00 
+England,MK Dons,EFL League Two,1.50 
+England,Morecambe,EFL League Two,1.00 
+England,Notts County,EFL League Two,1.50 
+England,Barrow,EFL League Two,1.00 
+England,Bromley FC,EFL League Two,0.50 
+England,Newport County,EFL League Two,1.00 
+England,Harrogate Town,EFL League Two,1.00 
+England,AFC Wimbledon,EFL League Two,1.00 
+England,Fleetwood Town,EFL League Two,1.00 
+England,Salford City,EFL League Two,1.00 
+Saudi Arabia,Al Hilal,ROSHN Saudi League,4.00 
+Saudi Arabia,Ettifaq FC,ROSHN Saudi League,3.00 
+Saudi Arabia,Al Ittihad,ROSHN Saudi League,3.50 
+Saudi Arabia,Al Shabab,ROSHN Saudi League,3.00 
+Saudi Arabia,Al Ahli,ROSHN Saudi League,3.50 
+Saudi Arabia,Al Wehdah,ROSHN Saudi League,1.50 
+Saudi Arabia,Al Nassr,ROSHN Saudi League,4.00 
+Saudi Arabia,Al Raed,ROSHN Saudi League,1.50 
+Saudi Arabia,Al Fateh,ROSHN Saudi League,2.00 
+Saudi Arabia,Al Qadisiyah,ROSHN Saudi League,3.00 
+Saudi Arabia,Al Taawoun,ROSHN Saudi League,2.50 
+Saudi Arabia,Al Khaleej,ROSHN Saudi League,2.00 
+Saudi Arabia,Al Riyadh,ROSHN Saudi League,2.00 
+Saudi Arabia,Al Orobah,ROSHN Saudi League,0.50 
+Saudi Arabia,Damac FC,ROSHN Saudi League,2.00 
+Saudi Arabia,Al Fayha,ROSHN Saudi League,1.00 
+Saudi Arabia,Al Okhdood,ROSHN Saudi League,1.00 
+Saudi Arabia,Al Kholood,ROSHN Saudi League,1.00 
+Argentina,Argentinos Jrs.,LPF,3.50 
+Argentina,Atletico Tucuman,LPF,3.00 
+Argentina,Banfield,LPF,2.50 
+Argentina,Barracas Central,LPF,2.50 
+Argentina,Belgrano,LPF,3.00 
+Argentina,Boca Juniors,LPF,4.00 
+Argentina,Central Cordoba,LPF,2.00 
+Argentina,Defensa,LPF,3.00 
+Argentina,Dep. Riestra,LPF,2.00 
+Argentina,Estudiantes,LPF,3.50 
+Argentina,Gimnasia,LPF,3.00 
+Argentina,Godoy Cruz,LPF,3.00 
+Argentina,Huracan,LPF,3.00 
+Argentina,Ind. Rivadavia,LPF,2.50 
+Argentina,Independiente,LPF,3.00 
+Argentina,Instituto,LPF,3.00 
+Argentina,Lanus,LPF,3.50 
+Argentina,Newell's,LPF,3.00 
+Argentina,Platense,LPF,3.00 
+Argentina,Racing Club,LPF,3.50 
+Argentina,River Plate,LPF,4.00 
+Argentina,Rosario Central,LPF,3.50 
+Argentina,San Lorenzo,LPF,3.50 
+Argentina,Sarmiento,LPF,3.00 
+Argentina,Talleres,LPF,3.50 
+Argentina,Tigre,LPF,2.50 
+Argentina,Union,LPF,3.00 
+Argentina,Velez Sarsfield,LPF,3.50 
+Australia,Adelaide United,A-League,1.00 
+Australia,Auckland FC,A-League,1.00 
+Australia,Brisbane Roar,A-League,1.00 
+Australia,Central Coast,A-League,1.00 
+Australia,MacArthur FC,A-League,1.50 
+Australia,Melb. Victory,A-League,1.50 
+Australia,Melbourne City,A-League,1.50 
+Australia,Newcastle Jets,A-League,1.00 
+Australia,Perth Glory,A-League,1.00 
+Australia,Sydney FC,A-League,1.00 
+Australia,Well. Phoenix,A-League,1.00 
+Australia,Western United,A-League,1.00 
+Australia,WS Wanderers,A-League,1.50 
+Austria,Austria Klagenfurt,O. Bundesliga,1.50 
+Austria,Austria Vienne,O. Bundesliga,2.50 
+Austria,Blau-Weiss linz,O. Bundesliga,1.50 
+Austria,Grazer AK,O. Bundesliga,1.50 
+Austria,LASK,O. Bundesliga,3.00 
+Austria,RB Salzbourg,O. Bundesliga,3.50 
+Austria,SCR Altach,O. Bundesliga,2.00 
+Austria,SK Rapid,O. Bundesliga,3.00 
+Austria,SK Sturm Graz,O. Bundesliga,3.00 
+Austria,TSV Hartberg,O. Bundesliga,2.00 
+Austria,Wolfsberger AC,O. Bundesliga,2.00 
+Austria,WSG Tirol,O. Bundesliga,1.50 
+Belgium,Royal Antwerp FC,1A Pro League,3.50 
+Belgium,RSC Anderlecht,1A Pro League,3.50 
+Belgium,K. Beerschot VA,1A Pro League,1.50 
+Belgium,Cercle Bruges,1A Pro League,3.00 
+Belgium,Sp. Charleroi,1A Pro League,2.50 
+Belgium,Club Bruges,1A Pro League,4.00 
+Belgium,KV Courtrai,1A Pro League,2.50 
+Belgium,FCV Dender EH,1A Pro League,1.50 
+Belgium,KRC Genk,1A Pro League,3.50 
+Belgium,KAA La Gantoise,1A Pro League,3.50 
+Belgium,OH Louvain,1A Pro League,3.00 
+Belgium,FC Malines,1A Pro League,3.00 
+Belgium,R. Union St.-G.,1A Pro League,3.50 
+Belgium,STVV,1A Pro League,2.00 
+Belgium,Standard Liege,1A Pro League,2.50 
+Belgium,KVC Westerlo,1A Pro League,2.50 
+Republic of Korea,Daegu FC,K League 1,2.00 
+Republic of Korea,Daejeon Hana,K League 1,2.50 
+Republic of Korea,Gangwon FC,K League 1,2.00 
+Republic of Korea,Gwangju FC,K League 1,2.50 
+Republic of Korea,Incheon United,K League 1,2.50 
+Republic of Korea,Jeju United,K League 1,2.50 
+Republic of Korea,Jeonbuk Hyundai,K League 1,2.50 
+Republic of Korea,Pohang Steelers,K League 1,2.50 
+Republic of Korea,FC Seoul,K League 1,3.00 
+Republic of Korea,Gimcheon Sangmu,K League 1,2.00 
+Republic of Korea,Suwon FC,K League 1,2.00 
+Republic of Korea,Ulsan HD FC,K League 1,3.00 
+Denmark,AaB,3F Superliga,1.50 
+Denmark,AGF,3F Superliga,3.00 
+Denmark,Brondby IF,3F Superliga,3.00 
+Denmark,FC Copenhague,3F Superliga,3.50 
+Denmark,Lyngby BK,3F Superliga,1.50 
+Denmark,FC Midtjylland,3F Superliga,3.50 
+Denmark,FC Nordsjaelland,3F Superliga,2.50 
+Denmark,Randers FC,3F Superliga,2.00 
+Denmark,Silkeborg IF,3F Superliga,2.50 
+Denmark,Sonderjyske,3F Superliga,1.00 
+Denmark,Vejle Boldklib,3F Superliga,2.00 
+Denmark,Viborg FF,3F Superliga,2.00 
+Scotland,Aberdeen,Scottish Prem,2.50 
+Scotland,Celtic,Scottish Prem,4.00 
+Scotland,Dundee FC,Scottish Prem,1.50 
+Scotland,Dundee United,Scottish Prem,1.50 
+Scotland,Hearts,Scottish Prem,3.00 
+Scotland,Hibernian,Scottish Prem,2.50 
+Scotland,Kilmaronock,Scottish Prem,2.00 
+Scotland,Motherwell,Scottish Prem,1.50 
+Scotland,Rangers,Scottish Prem,3.50 
+Scotland,Ross County,Scottish Prem,1.00 
+Scotland,St. Johnstone,Scottish Prem,1.50 
+Scotland,St. Mirren,Scottish Prem,1.50 
+Spain,D. Alaves,LaLiga EA Sports,3.50 
+Spain,Athletic Bilbao,LaLiga EA Sports,4.50 
+Spain,Atletico de Madrid,LaLiga EA Sports,4.50 
+Spain,FC Barcelone,LaLiga EA Sports,5.00 
+Spain,Real Betis,LaLiga EA Sports,4.00 
+Spain,Celta Vigo,LaLiga EA Sports,4.00 
+Spain,Esp. Barcelone,LaLiga EA Sports,3.50 
+Spain,Seville FC,LaLiga EA Sports,4.00 
+Spain,Girona FC,LaLiga EA Sports,4.00 
+Spain,Getafe CF,LaLiga EA Sports,4.00 
+Spain,UD Las Palmas,LaLiga EA Sports,4.00 
+Spain,CD Leganes,LaLiga EA Sports,3.50 
+Spain,RCD Majorque,LaLiga EA Sports,4.00 
+Spain,CA Osasuna,LaLiga EA Sports,4.00 
+Spain,Real Madrid,LaLiga EA Sports,5.00 
+Spain,Real Sociedad,LaLiga EA Sports,4.00 
+Spain,Valence CF,LaLiga EA Sports,4.00 
+Spain,Real Valladolid,LaLiga EA Sports,3.50 
+Spain,Rayo Vallecano,LaLiga EA Sports,4.00 
+Spain,Villarreal CF,LaLiga EA Sports,4.00 
+Spain,Albacete BP,LaLiga Hypermotion,2.50 
+Spain,UD Almeria,LaLiga Hypermotion,3.50 
+Spain,Burgos CF,LaLiga Hypermotion,2.50 
+Spain,Cadiz CF,LaLiga Hypermotion,3.50 
+Spain,FC Carthagene,LaLiga Hypermotion,2.50 
+Spain,CD Castellon,LaLiga Hypermotion,2.00 
+Spain,Cordoba CF,LaLiga Hypermotion,1.50 
+Spain,SD Eibar,LaLiga Hypermotion,3.00 
+Spain,Elche CF,LaLiga Hypermotion,3.00 
+Spain,CD Eldense,LaLiga Hypermotion,2.50 
+Spain,Racing de Ferrol,LaLiga Hypermotion,2.50 
+Spain,Sporing Gijon,LaLiga Hypermotion,3.00 
+Spain,Grenade CF,LaLiga Hypermotion,3.50 
+Spain,SD Huesca,LaLiga Hypermotion,2.50 
+Spain,Deportivo,LaLiga Hypermotion,3.50 
+Spain,Levante UD,LaLiga Hypermotion,3.00 
+Spain,Malaga CF,LaLiga Hypermotion,2.00 
+Spain,CD Mirandes,LaLiga Hypermotion,1.50 
+Spain,Real Oviedo,LaLiga Hypermotion,3.50 
+Spain,R. Racing Club,LaLiga Hypermotion,2.50 
+Spain,Real Saragosse,LaLiga Hypermotion,3.00 
+Spain,CD Tenerife,LaLiga Hypermotion,3.00 
+United States,Atlanta United,MLS,2.50 
+United States,Austin FC,MLS,2.50 
+United States,CF Montreal,MLS,2.50 
+United States,Charlotte FC,MLS,2.50 
+United States,Chicago Fire FC,MLS,2.50 
+United States,Colorado Rapids,MLS,2.50 
+United States,Columbus Crew,MLS,3.00 
+United States,D.C. United,MLS,2.50 
+United States,FC Cincinnati,MLS,3.50 
+United States,FC Dallas,MLS,2.50 
+United States,Houston Dynamo,MLS,3.00 
+United States,Inter Miami CF,MLS,3.50 
+United States,LA Galaxy,MLS,3.00 
+United States,LAFC,MLS,3.50 
+United States,Minnesota United,MLS,2.50 
+United States,Nashville SC,MLS,3.00 
+United States,New England,MLS,3.00 
+United States,New York City FC,MLS,2.50 
+United States,Red Bulls,MLS,2.50 
+United States,Orlando City,MLS,3.00 
+United States,Philadelphia U.,MLS,3.00 
+United States,Portland Timbers,MLS,3.00 
+United States,Real Salt Lake,MLS,3.00 
+United States,SJ Earthquakes,MLS,3.00 
+United States,Sounders FC,MLS,3.00 
+United States,Sporting KC,MLS,2.50 
+United States,St. Louis CITY SC,MLS,3.00 
+United States,Toronto FC,MLS,2.50 
+United States,Whitecaps FC,MLS,3.00 
+France,Angers SCO,Ligue 1 McDonald's,3.00 
+France,AJ Auxerre,Ligue 1 McDonald's,3.00 
+France,Stade Brestois 29,Ligue 1 McDonald's,3.50 
+France,Havre AC,Ligue 1 McDonald's,3.50 
+France,RC Lens,Ligue 1 McDonald's,4.00 
+France,LOSC Lille,Ligue 1 McDonald's,4.00 
+France,OL,Ligue 1 McDonald's,4.00 
+France,OM,Ligue 1 McDonald's,4.00 
+France,AS Monaco,Ligue 1 McDonald's,4.00 
+France,Montpellier,Ligue 1 McDonald's,3.50 
+France,FC Nantes,Ligue 1 McDonald's,3.50 
+France,OGC Nice,Ligue 1 McDonald's,4.00 
+France,PSG,Ligue 1 McDonald's,4.50 
+France,Satde de Reims,Ligue 1 McDonald's,3.50 
+France,Stade Rennais FC,Ligue 1 McDonald's,4.00 
+France,AS Saint-Etienne,Ligue 1 McDonald's,3.50 
+France,Strasbourg,Ligue 1 McDonald's,3.50 
+France,Toulouse FC,Ligue 1 McDonald's,3.50 
+France,AC Ajaccio,Ligue 2 BKT,2.00 
+France,Amiens SC,Ligue 2 BKT,2.00 
+France,FC Annecy,Ligue 2 BKT,1.50 
+France,SC Bastia,Ligue 2 BKT,2.00 
+France,ESTAC Troyes,Ligue 2 BKT,2.50 
+France,SM Caen,Ligue 2 BKT,2.50 
+France,Clermont Foot 63,Ligue 2 BKT,3.00 
+France,USL Dunkerque,Ligue 2 BKT,2.00 
+France,En Avant Guingamp,Ligue 2 BKT,2.00 
+France,Laval MFC,Ligue 2 BKT,2.00 
+France,FC Lorient,Ligue 2 BKT,3.50 
+France,FC Martigues,Ligue 2 BKT,1.00 
+France,FC Metz,Ligue 2 BKT,3.00 
+France,Paris FC,Ligue 2 BKT,2.50 
+France,Grenoble Foot 38,Ligue 2 BKT,2.50 
+France,Pau FC,Ligue 2 BKT,2.00 
+France,Red Star,Ligue 2 BKT,1.50 
+France,Rodez AF,Ligue 2 BKT,2.00 
+India,Bangaluru FC,ISL,1.00 
+India,Chennaiyin FC,ISL,0.50 
+India,FC Goa,ISL,1.00 
+India,Hyderabad FC,ISL,0.50 
+India,Jamshedpur FC,ISL,0.50 
+India,Kerala Blasters,ISL,0.50 
+India,Mohammedan SC,ISL,0.50 
+India,Mohun Bagan SG,ISL,1.50 
+India,Mumbai City FC,ISL,1.00 
+India,NorthEast United,ISL,0.50 
+India,Odisha FC,ISL,1.00 
+India,East Bengal,ISL,1.00 
+India,Punjad FC,ISL,0.50 
+Republic of Ireland,Bohemians,SSE Airtricity PD,1.00 
+Republic of Ireland,Derry City,SSE Airtricity PD,1.00 
+Republic of Ireland,Drogheda United,SSE Airtricity PD,0.50 
+Republic of Ireland,Dundalk,SSE Airtricity PD,0.50 
+Republic of Ireland,Galway United,SSE Airtricity PD,1.00 
+Republic of Ireland,Shamrock Rovers,SSE Airtricity PD,1.50 
+Republic of Ireland,Shelbourne,SSE Airtricity PD,1.00 
+Republic of Ireland,Sligo Rovers,SSE Airtricity PD,1.00 
+Republic of Ireland,St. Pats,SSE Airtricity PD,1.00 
+Republic of Ireland,Waterford,SSE Airtricity PD,0.50 
+Italy,Milano FC (AC Milan),Serie A Enilive,4.50 
+Italy,AS Roma,Serie A Enilive,4.50 
+Italy,Bergamo Calcio (Atalanta),Serie A Enilive,4.50 
+Italy,Bologne,Serie A Enilive,4.00 
+Italy,Cagliari,Serie A Enilive,3.50 
+Italy,Come,Serie A Enilive,3.50 
+Italy,Empoli,Serie A Enilive,3.50 
+Italy,Fiorentina,Serie A Enilive,4.00 
+Italy,Genoa,Serie A Enilive,3.50 
+Italy,Hellas Verone,Serie A Enilive,3.50 
+Italy,Lombardia FC (Inter),Serie A Enilive,5.00 
+Italy,Juventus,Serie A Enilive,4.50 
+Italy,Latium (lazio),Serie A Enilive,4.00 
+Italy,Lecce,Serie A Enilive,3.50 
+Italy,Monza,Serie A Enilive,3.50 
+Italy,SSC Napoli,Serie A Enilive,4.50 
+Italy,Parma,Serie A Enilive,3.50 
+Italy,Torino,Serie A Enilive,4.00 
+Italy,Udinese,Serie A Enilive,3.50 
+Italy,Venezia,Serie A Enilive,3.50 
+Italy,Bari,Serie BKT,2.50 
+Italy,Brescia,Serie BKT,2.50 
+Italy,Carrarese Calcio,Serie BKT,2.00 
+Italy,Catanzaro,Serie BKT,2.00 
+Italy,Cesena,Serie BKT,2.50 
+Italy,Cittadella,Serie BKT,2.50 
+Italy,Cosenza,Serie BKT,2.50 
+Italy,Cremonese,Serie BKT,3.50 
+Italy,Frosinone,Serie BKT,2.00 
+Italy,SS Juve Stabia,Serie BKT,1.50 
+Italy,Mantoue,Serie BKT,2.00 
+Italy,Modene,Serie BKT,3.00 
+Italy,Palerme,Serie BKT,3.50 
+Italy,Pise,Serie BKT,2.50 
+Italy,Reggiana,Serie BKT,2.50 
+Italy,Salernitana,Serie BKT,3.50 
+Italy,Sampdoria,Serie BKT,3.50 
+Italy,Sassuolo,Serie BKT,3.50 
+Italy,Spezia,Serie BKT,2.50 
+Italy,Sudtirol,Serie BKT,2.50 
+Norway,FK Bodo/Glimt,Eliteserien,3.00 
+Norway,SK Brann,Eliteserien,2.00 
+Norway,Fredrikstad FK,Eliteserien,1.00 
+Norway,HamKam Fotball,Eliteserien,1.50 
+Norway,FK Haugesaund,Eliteserien,1.50 
+Norway,KFUM -Kameratene,Eliteserien,1.00 
+Norway,Kristiansund BK,Eliteserien,1.00 
+Norway,Lillestrom SK,Eliteserien,2.00 
+Norway,Molde FK,Eliteserien,2.50 
+Norway,Odds BK,Eliteserien,1.50 
+Norway,Rosenborg BK,Eliteserien,2.00 
+Norway,Sandefjord,Eliteserien,1.00 
+Norway,Sarpsborg 08,Eliteserien,1.50 
+Norway,Stromsgodset IF,Eliteserien,1.50 
+Norway,Tromso IL,Eliteserien,1.50 
+Norway,Viking FK,Eliteserien,2.00 
+Netherlands,Ajax,Eredivisie,4.00 
+Netherlands,AZ,Eredivisie,3.50 
+Netherlands,Almere City FC,Eredivisie,2.00 
+Netherlands,NAC Breda,Eredivisie,2.00 
+Netherlands,Feyenoord,Eredivisie,4.00 
+Netherlands,Go Ahead Eagles,Eredivisie,2.50 
+Netherlands,FC Groningen,Eredivisie,2.50 
+Netherlands,sc Heerenveen,Eredivisie,2.50 
+Netherlands,Heracles Almelo,Eredivisie,2.00 
+Netherlands,N.E.C Nimegue,Eredivisie,3.00 
+Netherlands,PSV,Eredivisie,4.00 
+Netherlands,Fortuna Sittard,Eredivisie,2.50 
+Netherlands,Sparta Rotterdam,Eredivisie,2.50 
+Netherlands,FC Twente,Eredivisie,3.50 
+Netherlands,FC Utrecht,Eredivisie,3.00 
+Netherlands,RKC Waalwijk,Eredivisie,2.00 
+Netherlands,Willem II,Eredivisie,2.00 
+Netherlands,PEC Zwolle,Eredivisie,2.00 
+Poland,Cracovia,PKO BP Ekstraklasa,2.00 
+Poland,Gornik Zabrze,PKO BP Ekstraklasa,2.00 
+Poland,Jagiellonia,PKO BP Ekstraklasa,2.50 
+Poland,GKS Katowice,PKO BP Ekstraklasa,1.50 
+Poland,Korona Kielce,PKO BP Ekstraklasa,1.50 
+Poland,Lech Poznan,PKO BP Ekstraklasa,2.50 
+Poland,Lechia Gdansk,PKO BP Ekstraklasa,1.50 
+Poland,Legia Varsovie,PKO BP Ekstraklasa,2.50 
+Poland,Mortor Lublin,PKO BP Ekstraklasa,1.50 
+Poland,Piast Gliwice,PKO BP Ekstraklasa,2.00 
+Poland,Pogon Szczecin,PKO BP Ekstraklasa,2.50 
+Poland,Puszcza,PKO BP Ekstraklasa,1.50 
+Poland,Radomiak Radom,PKO BP Ekstraklasa,1.50 
+Poland,Rakow,PKO BP Ekstraklasa,2.50 
+Poland,Slask Wroclaw,PKO BP Ekstraklasa,2.00 
+Poland,Stal Mielec,PKO BP Ekstraklasa,1.50 
+Poland,Widzew Lodz,PKO BP Ekstraklasa,2.00 
+Poland,Zaglebie Lubin,PKO BP Ekstraklasa,2.00 
+Portugal,Arouca,Liga Portugal,3.00 
+Portugal,AVS Futebol SAD,Liga Portugal,2.50 
+Portugal,SL Benfica,Liga Portugal,4.00 
+Portugal,Boavista FC,Liga Portugal,2.50 
+Portugal,SC Braga,Liga Portugal,4.00 
+Portugal,Casa Pia AC,Liga Portugal,3.00 
+Portugal,Estoril Praia,Liga Portugal,3.00 
+Portugal,Estrela Amadora,Liga Portugal,2.50 
+Portugal,FC Famalicao,Liga Portugal,3.00 
+Portugal,Farense,Liga Portugal,2.50 
+Portugal,FC Porto,Liga Portugal,4.00 
+Portugal,Gil Vicente,Liga Portugal,3.00 
+Portugal,Vitoria SC,Liga Portugal,3.50 
+Portugal,Moreirense FC,Liga Portugal,3.00 
+Portugal,Nacional,Liga Portugal,2.50 
+Portugal,Rio Ave FC,Liga Portugal,3.00 
+Portugal,Santa Clara,Liga Portugal,2.50 
+Portugal,Sporting CP,Liga Portugal,4.00 
+Romania,FC Botosani,SUPERLIGA,1.50 
+Romania,CFR 1907 Cluj,SUPERLIGA,2.50 
+Romania,FC Dinamo 1948,SUPERLIGA,2.00 
+Romania,Farul Constanta,SUPERLIGA,2.00 
+Romania,FC Hermannstadt,SUPERLIGA,2.00 
+Romania,FCSB,SUPERLIGA,2.50 
+Romania,FC Gloria Buzau,SUPERLIGA,1.50 
+Romania,SC Otelul Galati,SUPERLIGA,1.50 
+Romania,FC Petrolul,SUPERLIGA,1.50 
+Romania,Politechnica Lasi,SUPERLIGA,1.50 
+Romania,FC Rapid 1923,SUPERLIGA,2.50 
+Romania,Sepsi OSK,SUPERLIGA,2.00 
+Romania,FC Univ. Cluj,SUPERLIGA,2.00 
+Romania,Unirea Slobozia,SUPERLIGA,1.00 
+Romania,Univ. Craiova,SUPERLIGA,2.50 
+Romania,UTA Arad,SUPERLIGA,1.50 
+China PR,Beijing FC,CSL,2.50 
+China PR,Cangzhou FC,CSL,1.00 
+China PR,Changchun Yatai,CSL,2.00 
+China PR,Chengdu FC,CSL,2.50 
+China PR,Henan FC,CSL,2.00 
+China PR,Meizhou Hakka,CSL,1.50 
+China PR,Nantong Zhiyum FC,CSL,1.00 
+China PR,Qingdao Hainiu,CSL,1.00 
+China PR,Qingdao W. Coast,CSL,1.50 
+China PR,Shandong Taishan,CSL,2.50 
+China PR,Shanghai Port FC,CSL,2.50 
+China PR,Shanghai Shenhua,CSL,2.50 
+China PR,SZ Peng City,CSL,1.00 
+China PR,Tiranjin JMT FC,CSL,1.50 
+China PR,Wuhan Three Towns,CSL,2.00 
+China PR,Zhejiang Pro,CSL,2.00 
+Sweden,AIK,Allsvenskan,2.00 
+Sweden,Brommapojkarna,Allsvenskan,1.50 
+Sweden,Djugardens IF,Allsvenskan,2.50 
+Sweden,IF Elfsborg,Allsvenskan,2.00 
+Sweden,GAIS,Allsvenskan,1.00 
+Sweden,IFK GOteborg,Allsvenskan,2.00 
+Sweden,BK Hacken,Allsvenskan,2.50 
+Sweden,Halmstads BK,Allsvenskan,1.50 
+Sweden,Hammarby IF,Allsvenskan,1.50 
+Sweden,Kalmar FF,Allsvenskan,2.00 
+Sweden,MalmO FF,Allsvenskan,3.50 
+Sweden,Mjallby AIF,Allsvenskan,1.00 
+Sweden,IFK NorrkOping,Allsvenskan,2.00 
+Sweden,IK Sirius,Allsvenskan,1.00 
+Sweden,IFK Varnamo,Allsvenskan,1.50 
+Sweden,Vasteras SK,Allsvenskan,1.00 
+Switzerland,FC Basel 1893,CSSL,2.50 
+Switzerland,Lausanne-Sport,CSSL,2.50 
+Switzerland,FC Lugano,CSSL,3.00 
+Switzerland,FC Lucerne,CSSL,2.50 
+Switzerland,Servette FC,CSSL,3.00 
+Switzerland,FC Sion,CSSL,2.00 
+Switzerland,FC Saint-Gall,CSSL,3.00 
+Switzerland,FC Winterthur,CSSL,2.00 
+Switzerland,BSC Young Boys,CSSL,3.50 
+Switzerland,Yverdon Sport FC,CSSL,2.00 
+Switzerland,FC Zurich,CSSL,3.00 
+Switzerland,GC Zurich,CSSL,2.00 
+Turkiye,Adana Demirspor,Trendyol Super Lig,2.50 
+Turkiye,Alanyaspor,Trendyol Super Lig,2.50 
+Turkiye,Antalyaspor,Trendyol Super Lig,2.50 
+Turkiye,Basaksehir,Trendyol Super Lig,3.50 
+Turkiye,Besiktas,Trendyol Super Lig,4.00 
+Turkiye,Bodrum FK,Trendyol Super Lig,1.00 
+Turkiye,Eyupspor,Trendyol Super Lig,3.00 
+Turkiye,Fenerbahce,Trendyol Super Lig,4.50 
+Turkiye,Galatasaray,Trendyol Super Lig,4.50 
+Turkiye,Gaziantep,Trendyol Super Lig,2.50 
+Turkiye,GOztepe,Trendyol Super Lig,2.50 
+Turkiye,Hatayspor,Trendyol Super Lig,2.50 
+Turkiye,Kasimpasa,Trendyol Super Lig,2.50 
+Turkiye,Kayserispor,Trendyol Super Lig,2.50 
+Turkiye,Konyaspor,Trendyol Super Lig,2.50 
+Turkiye,Cayhur Rizespor,Trendyol Super Lig,2.50 
+Turkiye,Samsunspor,Trendyol Super Lig,3.00 
+Turkiye,Sivasspor,Trendyol Super Lig,2.00 
+Turkiye,Trabzonspor,Trendyol Super Lig,4.00 
+Rest of World,AEK Athenes,RDM hommes,4.00 
+Rest of World,Olympiacos FC,RDM hommes,3.50 
+Rest of World,Al Ain FC,RDM hommes,3.00 
+Rest of World,APOEL FC,RDM hommes,3.00 
+Rest of World,Atl. Nacional,RDM hommes,3.00 
+Rest of World,Dinamo Zagreb,RDM hommes,3.50 
+Rest of World,Dynamo Kiev,RDM hommes,3.50 
+Rest of World,Ferencvarosi TC,RDM hommes,3.50 
+Rest of World,Hajduk Split,RDM hommes,3.50 
+Rest of World,HJK Helsinski,RDM hommes,1.50 
+Rest of World,Panathinaikos,RDM hommes,3.50 
+Rest of World,PAOK FC,RDM hommes,3.50 
+Rest of World,Chaktar Donetsk,RDM hommes,3.50 
+Rest of World,Slavia Prague,RDM hommes,3.50 
+Rest of World,Qarabag FK,RDM hommes,3.00 
+Rest of World,Sparta Prague,RDM hommes,3.50 
+Rest of World,Viktoria Plzen,RDM hommes,3.50 
+Rest of World,MLS All-Star,RDM hommes,4.00 
+Rest of World,Soccer Aid,RDM hommes,5.00 
+International Men,Germany,Selection hommes,5.00 
+International Men,England,Selection hommes,5.00 
+International Men,Argentina,Selection hommes,5.00 
+International Men,Croatie,Selection hommes,4.50 
+International Men,Denmark,Selection hommes,4.00 
+International Men,Scotland,Selection hommes,4.00 
+International Men,Spain,Selection hommes,5.00 
+International Men,United States,Selection hommes,4.00 
+International Men,Finlande,Selection hommes,3.50 
+International Men,France,Selection hommes,5.00 
+International Men,Ghana,Selection hommes,4.00 
+International Men,Hongrie,Selection hommes,4.00 
+International Men,Islande,Selection hommes,3.50 
+International Men,Irlande,Selection hommes,3.50 
+International Men,Irlande du Nord,Selection hommes,3.00 
+International Men,Italy,Selection hommes,5.00 
+International Men,Maroc,Selection hommes,4.00 
+International Men,Mexique,Selection hommes,4.00 
+International Men,Nouv.-Zelande,Selection hommes,2.50 
+International Men,Norway,Selection hommes,4.00 
+International Men,Netherlands,Selection hommes,4.50 
+International Men,Pays de Galles,Selection hommes,3.50 
+International Men,Poland,Selection hommes,4.00 
+International Men,Portugal,Selection hommes,5.00 
+International Men,Qatar,Selection hommes,2.50 
+International Men,Romania,Selection hommes,3.50 
+International Men,Tchequie,Selection hommes,4.00 
+International Men,Sweden,Selection hommes,4.00 
+International Men,Ukraine,Selection hommes,4.00 
