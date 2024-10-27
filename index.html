@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchmaker FC 25</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="/" class="main-title">MATCHMAKER FC 25</a>
+        <div class="language-switcher">
+            <a href="javascript:void(0)" onclick="changeLanguage('en')">
+                <img src="Photos/uk.png" alt="English"/>
+            </a>
+            <a href="javascript:void(0)" onclick="changeLanguage('fr')">
+                <img src="Photos/fr.png" alt="Français"/>
+            </a>
+        </div>
+        
+    </header>
+
+    <div class="filters">
+        <label for="championnat">Choisissez un championnat :</label>
+        <div class="dropdown">
+            <button class="dropbtn">Sélectionner Championnats <span class="arrow">▼</span></button>
+            <div class="dropdown-content" id="championnat">
+                <label>
+                    <input type="checkbox" id="tous-championnats" checked>
+                    <span>Tous</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="grands-championnats">
+                    <span>Sélectionner les 5 grands championnats</span>
+                </label>
+            </div>
+        </div>
+    
+        <label for="etoiles">Choisissez le nombre d'étoiles minimum :</label>
+        <div class="dropdown">
+            <select id="etoiles">
+                <option value="-1">Tous</option> <!-- Changer "0" à "Tous" -->
+                <option value="1">1 étoile</option>
+                <option value="2">2 étoiles</option>
+                <option value="3">3 étoiles</option>
+                <option value="4">4 étoiles</option>
+                <option value="4.5">4.5 étoiles</option> 
+                <option value="5">5 étoiles</option>
+            </select>
+        </div>
+        
+        <button class="filter-btn" onclick="filtrerEquipes()">Filtrer les équipes</button>
+    </div>
+
+    <div class="image-container">
+        <div class="circle left-circle"><!-- Cercle à gauche -->
+            <div class="left-club-info">
+                <span class="club-name-left">Nom du Club 1</span> <!-- Nom du club tiré pour l'équipe 1 -->
+                <div class="left-club-name"> 
+                    <p class="club-country">Pays: </p>
+                    <p class="club-league">Championnat: </p>
+                    <div class="club-rating-left"></div> <!-- Conteneur pour les étoiles du club gauche -->
+                </div>
+            </div>
+        </div> 
+        <img src="Photos/terrain.jpeg" alt="terrain de football" class="centered-image">
+        
+        <div class="circle right-circle"><!-- Cercle à droite -->
+            <div class="right-club-info">
+                <span class="club-name-right">Nom du Club 2</span> <!-- Nom du club tiré pour l'équipe 2 -->
+                <div class="right-club-name">
+                    <p class="club-country">Pays: </p>
+                    <p class="club-league">Championnat: </p>
+                    <div class="club-rating-right"></div> <!-- Conteneur pour les étoiles du club droit -->
+                </div>
+            </div>
+        </div> 
+    
+        <div class="text left-text">Equipe 1</div> <!-- Texte pour le cercle gauche -->
+        <div class="text right-text">Equipe 2</div> <!-- Texte pour le cercle droit -->
+        <button id="lancer" class="lancer-button">Lancer</button> <!-- Bouton Lancer -->
+    </div>
+    
+
+    <div id="resultats">
+        <!-- Les résultats filtrés s'afficheront ici -->
+    </div>
+
+    <script>
+
+        const translations = {
+            fr: {
+                etoiles: {
+                    tous: "Tous",
+                    1: "1 étoile",
+                    2: "2 étoiles",
+                    3: "3 étoiles",
+                    4: "4 étoiles",
+                    4.5: "4.5 étoiles",
+                    5: "5 étoiles"
+                },
+                labels: {
+                    selectChampionnats: "Sélectionner Championnats",
+                    tousChampionnats: "Tous",
+                    grandsChampionnats: "Sélectionner les 5 grands championnats",
+                    chooseChampionship: "Choisissez un championnat :",
+                    chooseStars: "Choisissez le nombre d'étoiles minimum :",
+                    filtreBtn: "Filtrer les équipes",
+                    lancerBtn: "Lancer",
+                    equipe1: "Équipe 1",  // Nouvelle clé
+                    equipe2: "Équipe 2",  // Nouvelle clé
+                    pays: "Pays: ",       // Nouvelle clé
+                    championnat: "Championnat: " // Nouvelle clé
+                }
+            },
+            en: {
+                etoiles: {
+                    tous: "All",
+                    1: "1 star",
+                    2: "2 stars",
+                    3: "3 stars",
+                    4: "4 stars",
+                    4.5: "4.5 stars",
+                    5: "5 stars"
+                },
+                labels: {
+                    selectChampionnats: "Select Championships",
+                    tousChampionnats: "All",
+                    grandsChampionnats: "Select the top 5 leagues",
+                    chooseChampionship: "Choose a championship:",
+                    chooseStars: "Choose minimum number of stars:",
+                    filtreBtn: "Filter teams",
+                    lancerBtn: "Launch",
+                    equipe1: "Team 1",  // Nouvelle clé
+                    equipe2: "Team 2",  // Nouvelle clé
+                    pays: "Country: ",   // Nouvelle clé
+                    championnat: "League: " // Nouvelle clé
+                }
+            }
+        };
+
+        let currentLang = 'fr'; // Langue par défaut
+
+        function changeLanguage(lang) {
+            currentLang = lang; // Mise à jour de la langue
+
+            // Mettre à jour les options du filtre "Nombre d'étoiles"
+            const etoilesSelect = document.getElementById('etoiles');
+            etoilesSelect.options[0].text = translations[lang].etoiles.tous;
+            etoilesSelect.options[1].text = translations[lang].etoiles[1];
+            etoilesSelect.options[2].text = translations[lang].etoiles[2];
+            etoilesSelect.options[3].text = translations[lang].etoiles[3];
+            etoilesSelect.options[4].text = translations[lang].etoiles[4];
+            etoilesSelect.options[5].text = translations[lang].etoiles[4.5];
+            etoilesSelect.options[6].text = translations[lang].etoiles[5];
+
+            // Mettre à jour le label du bouton dropdown pour les championnats
+            document.querySelector('.dropbtn').textContent = translations[lang].labels.selectChampionnats;
+
+            // Mettre à jour les textes des checkboxes "Tous" et "Sélectionner les 5 grands championnats"
+            document.querySelector('#tous-championnats + span').textContent = translations[lang].labels.tousChampionnats;
+            document.querySelector('#grands-championnats + span').textContent = translations[lang].labels.grandsChampionnats;
+
+            // Mettre à jour les labels pour "Choisissez un championnat" et "Choisissez le nombre d'étoiles minimum"
+            document.querySelector('label[for="championnat"]').textContent = translations[lang].labels.chooseChampionship;
+            document.querySelector('label[for="etoiles"]').textContent = translations[lang].labels.chooseStars;
+
+            // Mettre à jour les textes des boutons de filtrage et de lancement
+            document.querySelector('.filter-btn').textContent = translations[lang].labels.filtreBtn;
+            document.getElementById('lancer').textContent = translations[lang].labels.lancerBtn;
+
+            // Mettre à jour les textes des équipes
+            document.querySelector('.left-text').textContent = translations[lang].labels.equipe1;
+            document.querySelector('.right-text').textContent = translations[lang].labels.equipe2;
+
+            // Mettre à jour les textes pour les pays et championnats dans le cercle de gauche
+            const leftCountry = document.querySelector('.left-club-name .club-country');
+            const leftLeague = document.querySelector('.left-club-name .club-league');
+            
+            leftCountry.textContent = translations[lang].labels.pays;
+            leftLeague.textContent = translations[lang].labels.championnat;
+
+            // Mettre à jour les textes pour les pays et championnats dans le cercle de droite
+            const rightCountry = document.querySelector('.right-club-name .club-country');
+            const rightLeague = document.querySelector('.right-club-name .club-league');
+            
+            rightCountry.textContent = translations[lang].labels.pays;
+            rightLeague.textContent = translations[lang].labels.championnat;
+
+            // Appeler la fonction pour charger les équipes en fonction de la langue sélectionnée
+            chargerEquipes();
+        }
+
+        
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get('lang') || 'fr'; // Langue par défaut: français
+            currentLang = lang; // Mettez à jour la langue actuelle
+            changeLanguage(lang); // Appel de la fonction pour mettre à jour les textes
+            chargerEquipes(); // Charger les équipes après avoir défini la langue
+        };
+
+
+
+        let equipes = []; // Contiendra toutes les équipes chargées
+
+
+    
+       // Fonction pour charger les équipes depuis un fichier CSV
+       function chargerEquipes() {
+            // Sélection du fichier CSV en fonction de la langue
+            const fichierCSV = currentLang === 'fr' ? 'equipes.csv' : 'equipes_en.csv';
+
+            fetch(fichierCSV)
+                .then(response => response.text())
+                .then(data => {
+                    const lignes = data.split("\n");
+                    equipes = [];  // Réinitialiser l'array des équipes avant de recharger les données
+                    lignes.forEach((ligne, index) => {
+                        if (index > 0) {  // Ignorer la première ligne d'en-tête
+                            const [pays, club, championnat, etoiles] = ligne.split(",");
+                            equipes.push({ 
+                                pays, 
+                                club, 
+                                championnat, 
+                                etoiles: parseFloat(etoiles) // Utilisation de parseFloat pour les valeurs décimales
+                            });
+                        }
+                    });
+                    console.log(equipes); // Vérifie les équipes chargées
+                    chargerOptionsChampionnat();  // Recharger les options des championnats après avoir chargé les équipes
+                })
+                .catch(error => console.error('Erreur de chargement du fichier CSV:', error)); // Gestion des erreurs
+        }
+    
+        // Charger dynamiquement les options de championnats dans le <select>
+            function chargerOptionsChampionnat() {
+        const selectChampionnat = document.getElementById('championnat');
+        
+        // Effacer les options précédentes pour éviter la duplication
+        selectChampionnat.innerHTML = ` 
+            <label>
+                <input type="checkbox" id="tous-championnats" checked>
+                <span>Tous</span>
+            </label>
+            <label>
+                <input type="checkbox" id="grands-championnats">
+                <span>Sélectionner les 5 grands championnats</span>
+            </label>
+        `;
+
+        const championnats = [...new Set(equipes.map(equipe => equipe.championnat))]; // Récupérer les championnats uniques
+
+        const grandsChampionats = ["Ligue 1 McDonald's", "Premier League", "Bundesliga", "Serie A Enilive", "LaLiga EA Sports"];
+
+        // Ajouter un événement pour la case "5 grands championnats"
+        const grandsChampionatsCheckbox = document.getElementById('grands-championnats');
+        grandsChampionatsCheckbox.addEventListener('change', function() {
+            const checkboxes = document.querySelectorAll('#championnat input[type="checkbox"]');
+            
+            checkboxes.forEach(checkbox => {
+                // Si la case est cochée et fait partie des 5 grands championnats
+                if (grandsChampionats.includes(checkbox.value)) {
+                    checkbox.checked = grandsChampionatsCheckbox.checked;
+                }
+            });
+        });
+
+        const championnatsAffiches = new Set(); // Assurer que chaque championnat est affiché une seule fois
+        equipes.forEach(equipe => {
+            if (!championnatsAffiches.has(equipe.championnat)) {
+                const label = document.createElement('label');
+                const checkbox = document.createElement('input');
+                
+                checkbox.type = 'checkbox';
+                checkbox.value = equipe.championnat; // Valeur du championnat
+
+                const span = document.createElement('span'); // Utiliser un span pour le texte du label
+                span.textContent = `${equipe.pays} - ${equipe.championnat}`; // Affichage du pays et championnat
+                
+                label.appendChild(checkbox);
+                label.appendChild(span); // Ajouter le span au label
+                
+                selectChampionnat.appendChild(label);
+                championnatsAffiches.add(equipe.championnat); // Ajouter le championnat à l'ensemble pour éviter les doublons
+            }
+        });
+    }
+
+        function filtrerEquipes() {
+            const championnatSelectionnes = Array.from(document.querySelectorAll('#championnat input[type="checkbox"]:checked'))
+                                                .map(cb => cb.value);
+
+            const etoilesMin = parseFloat(document.getElementById('etoiles').value);
+
+            const resultats = equipes.filter(equipe => {
+                // Vérifie si l'équipe appartient à l'un des championnats sélectionnés
+                const championnatCorrespond = (championnatSelectionnes.length === 0 || championnatSelectionnes.includes(equipe.championnat)) ||
+                                            (document.getElementById('tous-championnats').checked);
+
+                // Vérifie le nombre d'étoiles
+                const etoilesCorrespond = (etoilesMin === -1 || equipe.etoiles >= etoilesMin);
+
+                return championnatCorrespond && etoilesCorrespond; // Retourne true si les deux conditions sont remplies
+            });
+
+            // Afficher les résultats filtrés (par exemple, dans la console ou sur l'interface utilisateur)
+            console.log(resultats);
+        }
+        // Fonction pour afficher les résultats des équipes filtrées
+        function afficherResultats(equipes) {
+            const divResultats = document.getElementById('resultats');
+            divResultats.innerHTML = '';  // On vide les anciens résultats
+
+            if (equipes.length > 0) {
+                equipes.forEach(equipe => {
+                    const p = document.createElement('p');
+                    p.textContent = `${equipe.club} (${equipe.championnat}) - ${equipe.etoiles} étoiles`;
+                    divResultats.appendChild(p);
+                });
+            } else {
+                divResultats.textContent = 'Aucune équipe ne correspond aux critères de recherche.';
+            }
+        }
+        // Fonction pour tirer deux équipes et mettre à jour l'interface avec les informations (club, pays, championnat)
+        function tirerDeuxEquipes(equipes) {
+            if (equipes.length < 2) {
+                alert('Pas assez d\'équipes pour effectuer un tirage au sort.');
+                return;
+            }
+
+            const equipesTirees = [];
+            while (equipesTirees.length < 2) {
+                const index = Math.floor(Math.random() * equipes.length);
+                const equipe = equipes[index];
+                if (!equipesTirees.includes(equipe)) {
+                    equipesTirees.push(equipe);
+                }
+            }
+
+            // Afficher les résultats
+            const club1Div = document.querySelector('.left-circle');
+            const club2Div = document.querySelector('.right-circle');
+
+            // Mettre à jour les noms des clubs
+            club1Div.querySelector('.club-name-left').textContent = equipesTirees[0].club;
+            club2Div.querySelector('.club-name-right').textContent = equipesTirees[1].club;
+
+            // Afficher le pays et championnat en dessous des noms des clubs
+            club1Div.querySelector('.club-country').textContent = `${translations[currentLang].labels.pays}${equipesTirees[0].pays}`;
+            club1Div.querySelector('.club-league').textContent = `${translations[currentLang].labels.championnat}${equipesTirees[0].championnat}`;
+
+            club2Div.querySelector('.club-country').textContent = `${translations[currentLang].labels.pays}${equipesTirees[1].pays}`;
+            club2Div.querySelector('.club-league').textContent = `${translations[currentLang].labels.championnat}${equipesTirees[1].championnat}`;
+
+            // Générer les étoiles pour chaque club
+            genererEtoiles(document.querySelector(".club-rating-left"), equipesTirees[0].etoiles);
+            genererEtoiles(document.querySelector(".club-rating-right"), equipesTirees[1].etoiles);
+        }
+
+
+        
+        // Ajouter un événement sur le bouton Lancer pour tirer les équipes
+        document.getElementById('lancer').addEventListener('click', function() {
+            // Filtrer les équipes
+            const championnatSelectionnes = Array.from(document.querySelectorAll('#championnat input[type="checkbox"]:checked')).map(cb => cb.value);
+            const etoilesMin = parseFloat(document.getElementById('etoiles').value);
+
+            const equipesFiltrees = equipes.filter(equipe => {
+                const championnatCorrespond = (championnatSelectionnes.length === 0 || championnatSelectionnes.includes(equipe.championnat)) ||
+                                              (document.getElementById('tous-championnats').checked);
+                const etoilesCorrespond = (etoilesMin === -1 || equipe.etoiles >= etoilesMin);
+
+                return championnatCorrespond && etoilesCorrespond;
+            });
+
+            // Tirer au sort deux équipes parmi les équipes filtrées
+            tirerDeuxEquipes(equipesFiltrees);
+        });
+
+        
+        function genererEtoiles(element, note) {
+            const etoilesPleines = Math.floor(note);  // Nombre d'étoiles pleines
+            const demiEtoile = note % 1 !== 0;       // Demi-étoile s'il y a
+            const etoilesVides = 5 - etoilesPleines - (demiEtoile ? 1 : 0);  // Étoiles vides
+
+            let etoilesHTML = '';
+
+            // Ajouter les étoiles pleines
+            for (let i = 0; i < etoilesPleines; i++) {
+                etoilesHTML += '<i class="fas fa-star"></i>';
+            }
+
+            // Ajouter la demi-étoile si nécessaire
+            if (demiEtoile) {
+                etoilesHTML += '<i class="fas fa-star-half-alt"></i>';
+            }
+
+            // Ajouter les étoiles vides
+            for (let i = 0; i < etoilesVides; i++) {
+                etoilesHTML += '<i class="far fa-star"></i>';
+            }
+
+            // Injecter les étoiles dans l'élément HTML
+            element.innerHTML = etoilesHTML;
+        }
+
+        // Exemple d'application pour les clubs tirés au sort
+        document.addEventListener("DOMContentLoaded", function() {
+            // Sélectionner les conteneurs des étoiles pour le club gauche et le club droit
+            const clubRatingLeft = document.querySelector(".club-rating-left");
+            const clubRatingRight = document.querySelector(".club-rating-right");
+
+    
+        });
+
+        function afficherClubsTiresAuSort(clubGauche, clubDroit) {
+            // Mettre à jour le nom du club gauche
+            document.querySelector(".club-name-left").textContent = clubGauche.nom;
+            // Mettre à jour les étoiles du club gauche
+            genererEtoiles(document.querySelector(".club-rating-left"), clubGauche.etoiles);
+
+            // Mettre à jour le nom du club droit
+            document.querySelector(".club-name-right").textContent = clubDroit.nom;
+            // Mettre à jour les étoiles du club droit
+            genererEtoiles(document.querySelector(".club-rating-right"), clubDroit.etoiles);
+        }
+
+        // Exemple d'utilisation
+        document.addEventListener("DOMContentLoaded", function() {
+            // Exemple de clubs tirés au sort avec des étoiles
+            const clubGauche = { nom: 'Paris Saint-Germain', etoiles: 4.5 };
+            const clubDroit = { nom: 'Manchester United', etoiles: 4 };
+
+            // Appeler la fonction pour afficher les clubs tirés au sort
+            afficherClubsTiresAuSort(clubGauche, clubDroit);
+        });
+
+        document.getElementById('lancer').addEventListener('click', function() {
+            // Filtrer les équipes en fonction des critères choisis
+            const championnatSelectionnes = Array.from(document.querySelectorAll('#championnat input[type="checkbox"]:checked')).map(cb => cb.value);
+            const etoilesMin = parseFloat(document.getElementById('etoiles').value);
+
+            const equipesFiltrees = equipes.filter(equipe => {
+                const championnatCorrespond = (championnatSelectionnes.length === 0 || championnatSelectionnes.includes(equipe.championnat)) ||
+                                            (document.getElementById('tous-championnats').checked);
+                const etoilesCorrespond = (etoilesMin === -1 || equipe.etoiles >= etoilesMin);
+
+                return championnatCorrespond && etoilesCorrespond;
+            });
+
+            // Tirer au sort deux équipes parmi les équipes filtrées et les afficher avec leurs étoiles
+            tirerDeuxEquipes(equipesFiltrees);
+        });
+
+        // Charger les équipes au chargement de la page
+        window.onload = chargerEquipes;
+
+    
+
+    </script>
+
+    <footer>
+        <p>© 2024-2025.</p>
+    </footer>
+
+</body>
+
+</html>
